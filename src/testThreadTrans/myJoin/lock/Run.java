@@ -1,4 +1,4 @@
-package testThreadTrans.myLockTest.joinOrSleep;
+package testThreadTrans.myJoin.lock;
 
 public class Run {
     public static void main(String[] args) throws InterruptedException {

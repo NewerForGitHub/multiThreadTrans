@@ -1,4 +1,4 @@
-package testThreadTrans.myLockTest.joinOrSleep;
+package testThreadTrans.myJoin.lock;
 
 public class ThreadA extends Thread {
 
