@@ -12,7 +12,7 @@ public class ThreadB extends Thread {
         synchronized (this.a) {
             this.a.start();
             try {
-//                this.a.join(6000);
+                this.a.join(6000);
                 Thread.sleep(6000);
             } catch (InterruptedException e) {
                 e.printStackTrace();
