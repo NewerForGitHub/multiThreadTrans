@@ -1,4 +1,4 @@
-package testThreadTrans.myThreadLocal;
+package testThreadTrans.myThreadLocal.threadLocal;
 
 import java.util.Date;
 

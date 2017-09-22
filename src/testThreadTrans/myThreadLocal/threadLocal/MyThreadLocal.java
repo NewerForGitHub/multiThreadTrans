@@ -1,4 +1,4 @@
-package testThreadTrans.myThreadLocal;
+package testThreadTrans.myThreadLocal.threadLocal;
 
 public class MyThreadLocal extends ThreadLocal<String> {
     @Override

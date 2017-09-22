@@ -1,4 +1,4 @@
-package testThreadTrans.myInheritableThreadLocal;
+package testThreadTrans.myThreadLocal.inheritableThreadLocal;
 
 public class ThreadA extends Thread {
 

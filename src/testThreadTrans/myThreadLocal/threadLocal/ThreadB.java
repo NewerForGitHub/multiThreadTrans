@@ -1,8 +1,8 @@
-package testThreadTrans.myThreadLocal;
+package testThreadTrans.myThreadLocal.threadLocal;
 
 import java.util.Date;
 
-public class ThreadA extends Thread {
+public class ThreadB extends Thread {
     @Override
     public void run() {
         try {
@@ -10,7 +10,7 @@ public class ThreadA extends Thread {
                 if (Tools.t.get() == null) {
                     Tools.t.set(new Date());
                 }
-                System.out.println("A " + Tools.t.get().getTime());
+                System.out.println("B " + Tools.t.get().getTime());
                 Thread.sleep(1000);
             }
         } catch (Exception e) {
